@@ -8,7 +8,13 @@ In Claude Code:
 /plugin install evalship --marketplace evalship-hq/skills
 ```
 
-In Codex, Cursor, Gemini CLI and other agents that read skills:
+In Gemini CLI:
+
+```sh
+gemini extensions install https://github.com/evalship-hq/skills
+```
+
+In Codex, Cursor and other agents that read skills:
 
 ```sh
 npx skills add https://evalship.com

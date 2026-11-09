@@ -1,0 +1,5 @@
+{
+  "name": "evalship",
+  "version": "1.0.0",
+  "description": "Your coding agent checks prompt and model changes with your evals before it finishes, and sets up evals and CI when asked."
+}
