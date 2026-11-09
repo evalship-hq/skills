@@ -1,7 +1,10 @@
 {
   "name": "evalship",
   "description": "evalship's skills for coding agents: check prompt and model changes, set up evals and act on pull request results.",
-  "owner": { "name": "evalship", "url": "https://evalship.com" },
+  "owner": {
+    "name": "evalship",
+    "url": "https://evalship.com"
+  },
   "plugins": [
     {
       "name": "evalship",
@@ -10,7 +13,11 @@
     },
     {
       "name": "tinyeval",
-      "source": { "source": "github", "repo": "evalship-hq/tinyeval" },
+      "source": {
+        "source": "git-subdir",
+        "url": "evalship-hq/tinyeval",
+        "path": "plugin"
+      },
       "description": "Checks prompt, model and LLM call changes on real inputs before and after, and keeps those checks as test cases in the repo, with no account."
     }
   ]
