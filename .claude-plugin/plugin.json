@@ -1,7 +1,7 @@
 {
   "name": "evalship",
   "displayName": "evalship",
-  "description": "Checks whether a change to a prompt, model or LLM call made an AI feature worse beyond chance, sets up evals on every pull request, and acts on evalship's pull request comment.",
+  "description": "Checks whether a change to a prompt, model or LLM call made an AI feature worse beyond chance, sets up evals on every pull request, monitors AI calls in production, and acts on evalship's pull request comment.",
   "author": {
     "name": "evalship",
     "url": "https://evalship.com"
