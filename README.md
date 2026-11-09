@@ -29,7 +29,13 @@ The skill is one file, [skills/evalship/SKILL.md](skills/evalship/SKILL.md). The
 
 ## What evalship gets
 
-compare.md sends each try's result: whether it passed, why it failed, and its cost and time. It never sends code, inputs or replies, and evalship keeps none of it. The other pages say what they send before they send it. See [Security](https://evalship.com/security).
+The skill sends data only to evalship.com, and each page says what it sends before it sends it.
+
+- **compare.md**, with no account: each try's result, meaning whether it passed, why it failed, and its cost and time. Never code, inputs or replies, and evalship keeps none of it.
+- **change.md**, for a repo connected to evalship: the eval results and the diff of the change. The diff is deleted once a commit of the same code reaches GitHub, or after 7 days.
+- **setup.md, pr.md and optimize.md**, for a repo connected to evalship: eval results, kept with your plan's eval history (30 days on Free, up to two years on Business). Owners can stop evalship keeping eval inputs and outputs.
+
+Your evals run on your machine or in your CI, with your keys. evalship never gets your secrets or a copy of your repository. [Security](https://evalship.com/security) and [Privacy](https://evalship.com/privacy) have the details.
 
 ## tinyeval
 
