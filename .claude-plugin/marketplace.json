@@ -15,7 +15,7 @@
       "name": "tinyeval",
       "source": {
         "source": "git-subdir",
-        "url": "evalship-hq/tinyeval",
+        "url": "https://github.com/evalship-hq/tinyeval.git",
         "path": "plugin"
       },
       "description": "Checks prompt, model and LLM call changes on real inputs before and after, and keeps those checks as test cases in the repo, with no account."
