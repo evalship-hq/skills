@@ -1,0 +1,17 @@
+{
+  "name": "evalship",
+  "description": "evalship's skills for coding agents: check prompt and model changes, set up evals and act on pull request results.",
+  "owner": { "name": "evalship", "url": "https://evalship.com" },
+  "plugins": [
+    {
+      "name": "evalship",
+      "source": "./",
+      "description": "Checks whether a change to a prompt, model or LLM call made an AI feature worse beyond chance, sets up evals on every pull request, and acts on evalship's pull request comment."
+    },
+    {
+      "name": "tinyeval",
+      "source": { "source": "github", "repo": "evalship-hq/tinyeval" },
+      "description": "Checks prompt, model and LLM call changes on real inputs before and after, and keeps those checks as test cases in the repo, with no account."
+    }
+  ]
+}

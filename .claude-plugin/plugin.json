@@ -1,0 +1,27 @@
+{
+  "name": "evalship",
+  "description": "Checks whether a change to a prompt, model or LLM call made an AI feature worse beyond chance, sets up evals on every pull request, and acts on evalship's pull request comment.",
+  "author": {
+    "name": "evalship",
+    "url": "https://evalship.com"
+  },
+  "homepage": "https://evalship.com",
+  "repository": "https://github.com/evalship-hq/skills",
+  "license": "MIT",
+  "keywords": [
+    "evals",
+    "llm",
+    "prompts",
+    "ci",
+    "github-actions",
+    "llm-as-a-judge"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://evalship.com/docs/agent",
+  "supportUrl": "https://github.com/evalship-hq/skills/issues",
+  "privacyPolicyUrl": "https://evalship.com/privacy",
+  "termsOfServiceUrl": "https://evalship.com/terms",
+  "experimental": {
+    "evals": "test/skill"
+  }
+}
