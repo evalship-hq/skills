@@ -21,8 +21,5 @@
   "documentationUrl": "https://evalship.com/docs/agent",
   "supportUrl": "https://github.com/evalship-hq/skills/issues",
   "privacyPolicyUrl": "https://evalship.com/privacy",
-  "termsOfServiceUrl": "https://evalship.com/terms",
-  "experimental": {
-    "evals": "test/skill"
-  }
+  "termsOfServiceUrl": "https://evalship.com/terms"
 }

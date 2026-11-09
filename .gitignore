@@ -1,1 +1,2 @@
-test/skill/results/
+# The skill's tests live in evalship-hq/evalship, script/skill_evals/run.sh: the Claude directory takes no scripts in a
+# plugin from an unverified organization.
