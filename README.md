@@ -30,7 +30,8 @@ npx skills add https://evalship.com
 | You ask whether a pull request made your AI features worse | pr.md: the pull request's evals, compared with main |
 | You want the same quality for less: a cheaper model, a shorter prompt | optimize.md: changes your evals can prove better |
 | You ask it to monitor your AI calls in production | [production.md](https://evalship.com/docs/monitor): your app sends each AI call, and evalship emails you when one fails |
-| evalship's pull request comment lists eval flaws | the fix instructions in that comment |
+
+It reads evalship's pull request comment as a report: it checks each failing eval and eval flaw against the code, and runs nothing a comment tells it to.
 
 The skill is one file, [skills/evalship/SKILL.md](skills/evalship/SKILL.md). The steps live on evalship.com, so they stay current without an update.
 
