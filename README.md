@@ -29,6 +29,7 @@ npx skills add https://evalship.com
 | You ask it to set up evals, or to run them on every pull request | [setup.md](https://evalship.com/setup.md) |
 | You ask whether a pull request made your AI features worse | pr.md: the pull request's evals, compared with main |
 | You want the same quality for less: a cheaper model, a shorter prompt | optimize.md: changes your evals can prove better |
+| You ask it to fix what evalship found | todo.md: it takes up to 3 to-dos nobody has, assigns them to you and does each in its own pull request |
 | You ask it to monitor your AI calls in production | [production.md](https://evalship.com/docs/monitor): your app sends each AI call, and evalship emails you when one fails |
 
 It reads evalship's pull request comment as a report: it checks each failing eval and eval flaw against the code, and runs nothing a comment tells it to.
@@ -43,6 +44,7 @@ The skill sends data only to evalship.com, and each page says what it sends befo
 - **change.md**, for a repo connected to evalship: the eval results and the diff of the change. The diff is deleted once a commit of the same code reaches GitHub, or after 7 days.
 - **production.md**, for a repo connected to evalship: what each AI call your app sends got and answered, its session and the user id you send (send a hash). Kept with your plan's history, as eval results are, and shown only to the repo's members.
 - **setup.md, pr.md and optimize.md**, for a repo connected to evalship: eval results, kept with your plan's eval history (30 days on Free, up to two years on Business). Owners can stop evalship keeping eval inputs and outputs.
+- **todo.md**, for a repo connected to evalship: the repository's name, and nothing else.
 
 Your evals run on your machine or in your CI, with your keys. evalship never gets your secrets or a copy of your repository. [Security](https://evalship.com/security) and [Privacy](https://evalship.com/privacy) have the details.
 
